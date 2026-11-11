@@ -1,0 +1,92 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #123524;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    color: #d4edda;
+    font-size: 35px;
+}
+
+/* Tagline */
+.tagline {
+    color: lightgreen;
+    font-size: 18px;
+}
+
+/* Animal Fact Panel */
+.fact-panel {
+
+    /* Width of the box */
+    width: 500px;
+
+    /* Background colour */
+    background-color: lightyellow;
+
+    /* Text colour */
+    color: #245b36;
+
+    /* Space inside the box */
+    padding: 25px;
+
+    /* Border around the box */
+    border: 5px solid forestgreen;
+
+    /* Space outside the box */
+    margin: 30px auto;
+
+    /* Rounded corners */
+    border-radius: 12px;
+
+    /* Text alignment */
+    text-align: left;
+}
+
+/* Panel Heading */
+.fact-panel h2 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 28px;
+}
+
+/* Animal Image */
+.fact-panel img {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Section Headings */
+.fact-panel h3 {
+    color: forestgreen;
+}
+
+/* Paragraphs */
+.fact-panel p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* List */
+.fact-panel li {
+    padding: 5px;
+}
+
+/* Footer */
+.footer {
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 18px;
+}
